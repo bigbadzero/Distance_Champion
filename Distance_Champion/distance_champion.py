@@ -1,3 +1,4 @@
+# function that converts distances into yards
 def ConvertDistance(measurment,distance):
     if measurment == "yd":
         distance = distance* 0.0009144
