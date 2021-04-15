@@ -32,7 +32,6 @@ for x in range(len(listOfPeople)):
     if(listOfPeople[x]["distance"] > largestDistance):
         largestDistance = listOfPeople[x]["distance"]
 
-
 # determine winner and write winner name to file
 for x in range(len(listOfPeople)):
     if listOfPeople[x]["distance"] == largestDistance:
